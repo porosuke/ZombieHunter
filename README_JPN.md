@@ -1,3 +1,5 @@
+For English instructions, please see [README.md](./README.md).
+
 # ゾンビハンター
 
 ![header](/header.png)
