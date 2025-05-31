@@ -54,7 +54,6 @@ namespace shooting
         private float shotAnimTimer = 0f;
         private bool isScratched = false;
         //乱数生成
-        Random r = new Random();
         List<SoundType> zombie_sound = new List<SoundType>();
         private List<ImageManager.ImagePos> animationList;
 
@@ -87,7 +86,7 @@ namespace shooting
             before_health = h;
             fullHealth = h;
             dead = false;
-            zombieVoiceTime = zombieVoiceBaseCooltime;
+            zombieVoiceTime = zombieVoiceBaseCooltime * (1 + (float)rand.NextDouble());
 
             if (E_type == "gun") shooter = true;
             if(E_type == "boss")
@@ -166,7 +165,7 @@ namespace shooting
             DistanceCheck(Player, p);
             CheckRoute();
 
-            if (health <= 0)
+            if (health <= 0 && !dead)
             {
                 Main.playSound.Play(SoundType.zombieDeath);
                 dead = true;
@@ -329,14 +328,15 @@ namespace shooting
         }
         private void VoiceManager()
         {
-            if(zombieVoiceTimer > zombieVoiceTime)
+            zombieVoiceTimer += Main.deltaTime;
+
+            if (zombieVoiceTimer > zombieVoiceTime)
             {
-                Main.playSound.Play(zombie_sound[r.Next(zombie_sound.Count)]);
+                Main.playSound.Play(zombie_sound[rand.Next(zombie_sound.Count)]);
                 //Baseの1~2倍の時間待つ
-                zombieVoiceTime = zombieVoiceBaseCooltime * (1 + (float)r.NextDouble());
+                zombieVoiceTime = zombieVoiceBaseCooltime * (1 + (float)rand.NextDouble());
                 zombieVoiceTimer = 0;
             }
-            zombieVoiceTimer += Main.deltaTime;
         }
         private void PhaseManager()
         {
@@ -353,20 +353,28 @@ namespace shooting
                 //体力60~30%
                 else if (health >= fullHealth / 100 * 30)
                 {
-                    if (phase == 1) playSound.Play(SoundType.phase2);
+                    if (phase == 1)
+                    {
+                        playSound.Play(SoundType.phase2);
+                        shotAnimTimer = 1.0f;
+                    }
                     phase = 2;
                     speed = (int)(baseSpeed * 3);
                     clawAnimFrameTime = 0.8f;
-                    shotCoolTime = 5f;
+                    shotCoolTime = 3f;
                 }
                 //体力30~0%
                 else
                 {
-                    if (phase == 2) playSound.Play(SoundType.phase3);
+                    if (phase == 2)
+                    {
+                        playSound.Play(SoundType.phase3);
+                        shotAnimTimer = 4.6f;
+                    }
                     phase = 3;
                     speed = (int)(baseSpeed * 0.8f);
                     clawAnimFrameTime = 0.6f;
-                    shotCoolTime = 8f;
+                    shotCoolTime = 5f;
                 }
             }
         }

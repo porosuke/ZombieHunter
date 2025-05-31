@@ -50,7 +50,7 @@ namespace shooting
         private const float ar_shotAnimFrameTime = 0.4f;
         private const float ar_reloadTime = 3.0f;
         private const int max_ar_b = 80;
-        private const int mag_ar_b = 30;
+        private const int mag_ar_b = 20;
 
         private const float sr_cooldown = 2.0f;
         private const int sr_Allbullet = 10;

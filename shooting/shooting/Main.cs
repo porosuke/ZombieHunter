@@ -139,6 +139,8 @@ namespace shooting
 
         public static float deltaTime = 0;
 
+        public static Random rand = new Random();
+
 
         //以下Windowシステム-------------------------------------------------------------------------
 
@@ -361,7 +363,6 @@ namespace shooting
         }
         private void MakeEnemy(int s, int X, int Y, int h, int sp, String t)
         {
-            Random rand = new Random();
             Enemy_data e1 = new Enemy_data()
             {
                 stage = s,

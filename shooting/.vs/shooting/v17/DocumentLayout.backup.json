@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{729DCF11-5ED7-4562-A9C5-6B912168980C}|shooting\\shooting.csproj|s:\\downloads\\shooting\\shooting\\shooting\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{729DCF11-5ED7-4562-A9C5-6B912168980C}|shooting\\shooting.csproj|solutionrelative:shooting\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729DCF11-5ED7-4562-A9C5-6B912168980C}|shooting\\shooting.csproj|s:\\downloads\\shooting\\shooting\\shooting\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729DCF11-5ED7-4562-A9C5-6B912168980C}|shooting\\shooting.csproj|solutionrelative:shooting\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729DCF11-5ED7-4562-A9C5-6B912168980C}|shooting\\shooting.csproj|S:\\Downloads\\shooting\\shooting\\shooting\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729DCF11-5ED7-4562-A9C5-6B912168980C}|shooting\\shooting.csproj|solutionrelative:shooting\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{729DCF11-5ED7-4562-A9C5-6B912168980C}|shooting\\shooting.csproj|S:\\Downloads\\shooting\\shooting\\shooting\\playsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729DCF11-5ED7-4562-A9C5-6B912168980C}|shooting\\shooting.csproj|solutionrelative:shooting\\playsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "S:\\Downloads\\shooting\\shooting\\shooting\\Main.cs",
+              "RelativeDocumentMoniker": "shooting\\Main.cs",
+              "ToolTip": "S:\\Downloads\\shooting\\shooting\\shooting\\Main.cs",
+              "RelativeToolTip": "shooting\\Main.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwDUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:45:33.346Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,10 +50,34 @@
               "RelativeDocumentMoniker": "shooting\\Player.cs",
               "ToolTip": "S:\\Downloads\\shooting\\shooting\\shooting\\Player.cs",
               "RelativeToolTip": "shooting\\Player.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAQwDIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T03:14:27.335Z",
+              "WhenOpened": "2025-05-31T07:11:51.142Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "S:\\Downloads\\shooting\\shooting\\shooting\\Enemy.cs",
+              "RelativeDocumentMoniker": "shooting\\Enemy.cs",
+              "ToolTip": "S:\\Downloads\\shooting\\shooting\\shooting\\Enemy.cs",
+              "RelativeToolTip": "shooting\\Enemy.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwFgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:50:27.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlaySound.cs",
+              "DocumentMoniker": "S:\\Downloads\\shooting\\shooting\\shooting\\PlaySound.cs",
+              "RelativeDocumentMoniker": "shooting\\PlaySound.cs",
+              "ToolTip": "S:\\Downloads\\shooting\\shooting\\shooting\\PlaySound.cs",
+              "RelativeToolTip": "shooting\\PlaySound.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAuwJIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:12:51.41Z"
             }
           ]
         }
