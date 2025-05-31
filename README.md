@@ -140,7 +140,7 @@ _[Damage, judgement, time, etc.]_
 * Weapon switching animation time changed to 0.4 seconds.
 * Initial ammunition carried changed to 20.
 * Initial loadout changed to 12.
-* Maximum loadout changed to 30.
+* Maximum loadout changed to 20.
 * Damage per bullet changed to 14.
 * Reload time changed to 3.0 seconds.
 
