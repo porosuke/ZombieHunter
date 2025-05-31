@@ -1,3 +1,5 @@
+For English Help, please see [HELP_ENG.md](./HELP_ENG.md).
+
 # ヘルプ
 
 ## [ GitHubについて ]

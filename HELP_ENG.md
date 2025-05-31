@@ -1,3 +1,5 @@
+日本語のヘルプは [HELP_JPN.md](./HELP_JPN.md) をご覧ください。
+
 # Help
 
 ## [ About GitHub ]
