@@ -43,7 +43,7 @@ Reload : R\
 __[Debug]__\
 Debug Mode : F1
 
-## Way of Playing
+## How to Play
 
 Players are hunters, enemies are zombies.\
 The game is about destroying all the zombies.\

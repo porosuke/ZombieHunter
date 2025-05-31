@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "S:\\Downloads\\shooting\\shooting\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{729DCF11-5ED7-4562-A9C5-6B912168980C}|shooting\\shooting.csproj|s:\\downloads\\shooting\\shooting\\shooting\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{729DCF11-5ED7-4562-A9C5-6B912168980C}|shooting\\shooting.csproj|solutionrelative:shooting\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{729DCF11-5ED7-4562-A9C5-6B912168980C}|shooting\\shooting.csproj|s:\\downloads\\shooting\\shooting\\shooting\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{729DCF11-5ED7-4562-A9C5-6B912168980C}|shooting\\shooting.csproj|solutionrelative:shooting\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "S:\\Downloads\\shooting\\shooting\\shooting\\Main.cs",
+              "RelativeDocumentMoniker": "shooting\\Main.cs",
+              "ToolTip": "S:\\Downloads\\shooting\\shooting\\shooting\\Main.cs",
+              "RelativeToolTip": "shooting\\Main.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T04:53:51.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "S:\\Downloads\\shooting\\shooting\\shooting\\Player.cs",
               "RelativeDocumentMoniker": "shooting\\Player.cs",
               "ToolTip": "S:\\Downloads\\shooting\\shooting\\shooting\\Player.cs",
               "RelativeToolTip": "shooting\\Player.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAQwDIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwEcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T03:14:27.335Z",
               "EditorCaption": ""
